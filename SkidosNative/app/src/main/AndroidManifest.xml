@@ -1,0 +1,9 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sn.skidosnative">
+
+    <application>
+    <provider android:name="com.sn.skidosnative.SkidosContentProvider" android:authorities="com.sn.skidosnative.SkidosContentProvider"
+        android:exported="true" android:grantUriPermissions="true">
+    </provider>
+    </application>>
+</manifest>

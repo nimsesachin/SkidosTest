@@ -33,13 +33,8 @@ public partial class MockAPIData
 
     [JsonProperty("Subtraction")]
     public Dictionary<string, SubTopic[]> Subtraction { get; set; }
-
-    public static List<MockAPIData> FromJson(string json)
-    {
-        return JsonConvert.DeserializeObject<List<MockAPIData>>(json);
-    }
+    
 }
-
 
 [System.Serializable]
 public class SubTopic
